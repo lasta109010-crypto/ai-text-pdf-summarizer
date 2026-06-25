@@ -5,11 +5,11 @@ from pypdf import PdfReader
 client = OpenAI()
 
 st.set_page_config(
-    page_title="AI Text Summarizer",
+    page_title="AI Text & PDF Summarizer",
     layout="centered"
 )
 # TITL AND TEXT AREA 
-st.title("AI Text Summarizer")
+st.title("AI Text & PDF Summarizer")
 
 text = st.text_area(
     "Paste text here",
